@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>
+ prompt_method
+</title>
+<script>
+function fun() {
+var a = prompt("Enter some text", "prompted successfully &#128512");
+if (a != null) {
+document.getElementById("text").innerHTML = "prompt " + a;
+}
+}
+</script>
+</head>
+
+<body style = "text-align: center; background-color: darkgreen;">
+
+<h1 style="font-family: sans-serif; color: darkorange;">
+The JavaScript prompt</h1>
+
+
+<button style="size: 50px;" onclick = "fun()">Click here</button>
+
+
+<p id = "text"></p>
+
+
+</body>
+
+</html>
